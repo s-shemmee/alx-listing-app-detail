@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Quicksand, Oxygen } from 'next/font/google';
-import Layout from '@/components/layouts/Layout';
+import Layout from '@/components/layout/Layout';
 import Hero from '@/components/Hero';
 import Pill from '@/components/common/Pill';
 import Card from '@/components/common/Card';
