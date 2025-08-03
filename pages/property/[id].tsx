@@ -1,6 +1,6 @@
 import { PROPERTYLISTINGSAMPLE } from '@/constants/index';
 import { useRouter } from 'next/router';
-import PropertyDetail from '../../components/property/PropertyDetailTest';
+import PropertyDetail from '../../components/property/PropertyDetail';
 import Layout from '@/components/layout/Layout';
 
 export default function PropertyPage() {
