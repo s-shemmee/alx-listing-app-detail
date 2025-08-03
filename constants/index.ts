@@ -18,6 +18,54 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
     },
     image: 'https://placehold.co/400x300.png',
     discount: '',
+    description:
+      'Experience luxury at its finest in this stunning oceanfront villa. With breathtaking views of the Indian Ocean and world-class amenities, this property offers the perfect tropical getaway. The villa features spacious living areas, a private infinity pool, and direct beach access.',
+    images: [
+      'https://placehold.co/600x400.png',
+      'https://placehold.co/300x200.png',
+      'https://placehold.co/300x200.png',
+      'https://placehold.co/300x200.png',
+      'https://placehold.co/300x200.png',
+    ],
+    amenities: [
+      'WiFi',
+      'Pool',
+      'Kitchen',
+      'Parking',
+      'Air Conditioning',
+      'Beach Access',
+      'Garden',
+      'Balcony',
+    ],
+    reviews: [
+      {
+        id: '1',
+        name: 'Sarah Johnson',
+        avatar: 'https://placehold.co/50x50.png',
+        rating: 5,
+        comment:
+          'Absolutely stunning villa with incredible ocean views. The infinity pool and direct beach access made our stay unforgettable. Highly recommend!',
+        date: '2024-07-15',
+      },
+      {
+        id: '2',
+        name: 'Michael Chen',
+        avatar: 'https://placehold.co/50x50.png',
+        rating: 5,
+        comment:
+          'Perfect location and amazing amenities. The villa exceeded our expectations in every way. Will definitely book again!',
+        date: '2024-07-10',
+      },
+      {
+        id: '3',
+        name: 'Emma Rodriguez',
+        avatar: 'https://placehold.co/50x50.png',
+        rating: 4,
+        comment:
+          'Beautiful property with great facilities. The only minor issue was the wifi speed, but everything else was perfect.',
+        date: '2024-07-05',
+      },
+    ],
   },
   {
     name: 'Mountain Escape Chalet',

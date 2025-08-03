@@ -15,6 +15,19 @@ export interface PropertyProps {
   };
   image: string;
   discount: string;
+  description?: string;
+  images?: string[];
+  amenities?: string[];
+  reviews?: ReviewProps[];
+}
+
+export interface ReviewProps {
+  id: string;
+  name: string;
+  avatar: string;
+  rating: number;
+  comment: string;
+  date: string;
 }
 
 export interface CardProps {
